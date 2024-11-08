@@ -6,16 +6,3 @@ $(document).ready(function() {
     });
 });
 
-//pop up
-
-window.onload = function() {
-    const alerta = document.getElementById("lei-alerta");
-    const okButton = document.getElementById("okbutton");
-
-    alerta.style.display = "block";
-
-
-    okButton.onclick = function() {
-        alerta.style.display = "none";
-    };
-};
